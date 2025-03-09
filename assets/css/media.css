@@ -1,0 +1,239 @@
+@media (max-width: 1500px) {
+  html {
+    font-size: 15px !important;
+  }
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .popular-slider .swiper-container {
+    max-width: 85rem;
+  }
+  .main-nav ul {
+    gap: 2rem;
+  }
+  .main-nav {
+    gap: 2.75rem;
+  }
+  .banner-text h1 {
+    font-size: 4rem;
+    line-height: 4.6rem;
+  }
+  .product-text h3 {
+    font-size: 2.75rem;
+  }
+  .site-heading h3 {
+    font-size: 2.2rem;
+  }
+  .popular-bx {
+    height: 18rem;
+    padding: 1.25rem;
+  }
+  .discount-text h2 {
+    font-size: 4.9rem;
+    line-height: 4.9rem;
+  }
+  .discount-text h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .banner-wrap {
+    max-width: 92%;
+}
+}
+
+@media (max-width: 1100px) {
+  .main-nav ul {
+    gap: 1.2rem;
+    flex-direction: column;
+    align-items: self-start;
+    width: 100%;
+  }
+  .header-icon ul {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+  .main-nav {
+    gap: 1.75rem;
+    flex-direction: column;
+  }
+  .header-icon {
+    width: 100%;
+  }
+  .main-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background: #fff;
+    z-index: 999;
+    padding: 50px;
+    transform: translateX(-100%);
+
+    transition: all 0.3s linear;
+  }
+  .menuToggle .main-nav {
+    transform: translateX(0%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .menuToggle .close_overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000024;
+    width: 100vw;
+    z-index: 99;
+    height: 100vh;
+  }
+
+  .close {
+    display: block;
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+  .toggle {
+    display: block;
+    width: 25px;
+  }
+  .banner-wrap {
+    padding: 0 1.625rem;
+  }
+  .newsletter-group {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-text h1 {
+    font-size: 3.8rem;
+    line-height: 4rem;
+  }
+  .product-text h3 {
+    font-size: 2.15rem;
+  }
+  .product-text {
+    bottom: 1.5rem;
+  }
+  .most-popular {
+    padding: 5rem 0;
+  }
+  .popular-bx {
+    height: 15rem;
+  }
+  .discount-text h2 {
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+  }
+  .discount-text h4 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+  }
+  .discount-sec {
+    padding: 6rem 0;
+  }
+  .newsletter-group input {
+    height: 3rem;
+  }
+  .footer-wrap {
+    margin: 15px 0;
+  }
+  .site-heading h3 {
+    font-size: 2rem;
+  }
+  .site-heading h3::before {
+    left: -50%;
+  }
+  .site-heading h3::after {
+    right: -50%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 1rem;
+    height: 1.475rem;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 14px !important;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .cst-btn {
+    margin-top: 2.8rem;
+  }
+  .product-bx {
+    /* height: 350px; */
+    margin: 12px 0;
+  }
+
+  .discount-text h2 {
+    font-size: 3.1rem;
+    line-height: 3.1rem;
+  }
+  .discount-text h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+    .popular-bx {
+        /* height: 16rem; */
+    }
+  .popular-prod-img, .popular-prod-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+}
+@media(max-width:576px){
+    .site-heading h3::before, .site-heading h3::after, .menuToggle .close_overlay {
+    display: none;
+}
+.main-nav {
+    width: 100%;
+    padding: 30px;
+}
+.product-text h3 {
+    font-size: 2rem;
+}
+.popular-slider .swiper-button-next, .popular-slider .swiper-button-prev {
+    top: 100%;
+    margin-top: 10px;
+}
+.popular-slider .swiper-button-next, .popular-slider .swiper-container-rtl .swiper-button-prev, .site-banner .carousel-control-prev {
+    right: 40%;
+}
+.popular-slider .swiper-button-prev, .popular-slider .swiper-container-rtl .swiper-button-next, .site-banner .carousel-control-next {
+    left: 40%;
+}
+.site-banner .carousel-control-next, .site-banner .carousel-control-prev {
+    top: auto;
+    bottom: 8%;
+}
+.banner-wrap {
+    padding: 0 0.625rem;
+}
+.popular-slider {
+    margin-top: 2rem;
+}
+.newsletter-group {
+    max-width: 95%;
+    margin-top: 2rem;
+}
+.footer-links {
+    margin-top: 10px;
+}
+footer {
+    padding-top: 3rem;
+}
+.discount-text h4 {
+    font-size: 1.3rem;
+}
+  .banner-wrap {
+    max-width: 100%;
+}
+}
