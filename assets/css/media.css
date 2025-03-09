@@ -236,4 +236,7 @@ footer {
   .banner-wrap {
     max-width: 100%;
 }
+.site-banner .carousel-item img {
+    object-fit: cover;
+}
 }
