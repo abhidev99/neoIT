@@ -239,4 +239,7 @@ footer {
 .site-banner .carousel-item img {
     object-fit: cover;
 }
+.banner-text h1 br, .discount-text h2 br {
+    display: none;
+}
 }
